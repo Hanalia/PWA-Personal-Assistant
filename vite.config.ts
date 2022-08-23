@@ -7,9 +7,9 @@ export default defineConfig({
 	plugins: [preact(),     VitePWA({
 		includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
 		manifest: {
-		  name: 'My Awesome App',
-		  short_name: 'MyApp',
-		  description: 'My Awesome App description',
+		  name: 'My Quote of Today',
+		  short_name: '오늘의명언',
+		  description: '내가좋아하는 책속 구절을 관리하기',
 		  theme_color: '#ffffff',
 		  icons: [
 			{
